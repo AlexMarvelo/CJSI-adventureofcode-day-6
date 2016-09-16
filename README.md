@@ -16,6 +16,6 @@ Hometask for Ciklum JS Internship Lesson 3 (task 1)
 git clone https://github.com/AlexMarvelo/CJSI-adventureofcode-day-6.git
 cd CJSI-extendDeep-compareDeep
 npm i
-npm run test
+npm run test test-big.txt
 ```
 You can see result in stdout
