@@ -13,6 +13,7 @@ Solve method:
   * 0 - lighter turned off
   * 1 - lighter turned on
 
+---
 
 ##### List of used technologies:
 - es6 (with Babel transpiler)
