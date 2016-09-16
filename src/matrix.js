@@ -25,19 +25,18 @@ export default class Matrix {
     let smallY = y % this.smallMatrixSize;
     let smallZ = Math.floor(y / this.smallMatrixSize) * 10 + Math.floor(x / this.smallMatrixSize);
 
-    // console.log(`Update ${smallZ}:${smallY}:${smallX} to ${behavior}`);
     if (behavior === 0) {
       this.array[smallZ][smallY][smallX] = 0;
-      return;
     }
     if (behavior === 1) {
       this.array[smallZ][smallY][smallX] = 1;
-      return;
     }
     if (behavior === 2) {
-      this.array[smallZ][smallY][smallX] = 1 - this.array[smallZ][smallY][smallX] == null ? 0 : 1;
-      return;
+      this.array[smallZ][smallY][smallX] = this.array[smallZ][smallY][smallX] === undefined ?
+        1 :
+        1 - this.array[smallZ][smallY][smallX];
     }
+    // console.log(`Update ${smallZ}:${smallY}:${smallX} to ${this.array[smallZ][smallY][smallX]}`);
   }
 
   getCell(x = -1, y = -1) {
