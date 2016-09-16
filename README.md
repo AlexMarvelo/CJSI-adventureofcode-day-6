@@ -24,7 +24,7 @@ Solve method:
 ##### To run the project locally, use:
 ```
 git clone https://github.com/AlexMarvelo/CJSI-adventureofcode-day-6.git
-cd CJSI-extendDeep-compareDeep
+cd CJSI-adventofcode-day-6
 npm i
 npm run test test-big.txt
 ```
