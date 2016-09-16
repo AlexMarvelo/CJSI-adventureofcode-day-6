@@ -1,4 +1,4 @@
-# CJSI-adventureofcode-day-6
+# CJSI Adventureofcode day 6
 Hometask for Ciklum JS Internship Lesson 3 (task 1)
 
 ---
@@ -13,7 +13,7 @@ Hometask for Ciklum JS Internship Lesson 3 (task 1)
 
 ##### To run the project locally, use:
 ```
-git clone https://github.com/AlexMarvelo/CJSI-extendDeep-compareDeep.git
+git clone https://github.com/AlexMarvelo/CJSI-adventureofcode-day-6.git
 cd CJSI-extendDeep-compareDeep
 npm i
 npm run test
