@@ -1,2 +1,6 @@
-turn on 7,2 through 4,1
-turn off 0,0 through 9,9
+turn on 1,1 through 2,2
+turn off 2,2 through 2,2
+toggle 2,2 through 4,4
+toggle 461,550 through 564,900
+turn off 370,39 through 425,839
+turn off 464,858 through 833,915

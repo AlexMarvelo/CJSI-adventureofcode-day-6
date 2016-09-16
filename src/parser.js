@@ -9,8 +9,8 @@ function detectCorners(row = '') {
   row = row.toLowerCase();
   return row.match(/[0-9]+,[0-9]+/gi).map((coords) => {
     let coordsObj = {
-      x: coords.split(',')[0],
-      y: coords.split(',')[1],
+      x: parseInt(coords.split(',')[0], 10),
+      y: parseInt(coords.split(',')[1], 10),
     };
     return coordsObj;
   });
